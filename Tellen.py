@@ -16,7 +16,7 @@ def increment(number):
 def decrement(number):
     aantal = number - 1
     return aantal
-print(addition(10,12))
+print("10 + 12 = " + str(addition(10,12)))
 print(substraction(58,34))
 print(multiplication(6,7))
 print(division(144,12))
