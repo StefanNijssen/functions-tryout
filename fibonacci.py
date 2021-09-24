@@ -1,12 +1,19 @@
 def optellen(num1):
-    x = 1
-    y = 1
-    for i in range(1,num1+1):
-        if x == 1:
+    x = 0
+    y = 0
+    for i in range(1,num1-2):
+        if x == 0:
             x += 1
-            y = x
         else:
             x = y + x
+            y = x + y
+            
+    if num1 // 2 == 0:
+        print(y)
+    else:
+        print(x)
+
+    
 
         
 
